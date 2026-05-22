@@ -104,7 +104,7 @@ while deve_continuar and (convidados < quantidade_convidados):
 
 # Verifica se a quantidade de convidados na lista é maior que 0.
 if len(lista_convidados) > 0:
-    print("\n--- LISTA FINAL DE CONVIDADOS ---")
+    print("\n--- LISTA FINAL DE CONVIDADOS ---\n")
     
     maior_tamanho = max(len(convidado[0]) for convidado in lista_convidados)
     largura = max(maior_tamanho, 15)
